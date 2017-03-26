@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.wrap{
+	width:850px;
+	margin: 0 auto;
+	
+	
+}
+h2{
+	font-family:微軟正黑體;
+	font-size:25px;
+	color:#2F4F4F;
+	padding-bottom: 30px;
+}
+.header img{
+	width:850px;
+	height:400px;
+	position:relative;
+}
+.header p{
+	font-family:微軟正黑體;
+	font-size:30px;
+	color:white;
+	padding-left: 550px;
+	padding-top: 50px;
+	position:absolute;
+}
+.list{ 
+	padding-top: 30px;
+	margin: 0 auto;
+	float:left;
+}
+.list li{
+	width:230px;
+	background:white;
+  	display:block;
+  	color: #8B4513;
+	font-family:微軟正黑體;
+ 	padding: 20px 10px;
+  	text-decoration: none;
+
+}
+.list li:hover{
+  background: #8B4513;
+  color:white;
+}
+.pic{
+	width:600px;
+	padding-top: 95px;
+	z-index:10;
+	float:left;
+}
+.pic li{
+	font-family:微軟正黑體;
+	list-style-type:none;
+	width:180px; 
+	height:250px;
+	box-shadow:3px 3px 5px 0px #cccccc;
+	float:left;
+	padding-left:10px;
+	text-align: center;
+	position: relative;
+
+}
+img{
+	padding-top: 5px;
+	height:90px;
+	float:left; 
+	width:170px;
+	
+	
+}
+.pic h2{
+	color:black;
+}
+ .heart{
+ 	width:20px;
+ 	height:17px;
+ 	position: absolute;
+ 	z-index: 50;
+ 	left: 15px;
+ 	top:5px;
+
+ }
+ button{
+	margin-top: 5%;
+	background-color:#404040;
+	border:none;
+	width:125px;
+	height:40px;
+	font-size:10px;
+	color:white;
+	position: relative;
+}
+.car{
+	width: 20px;
+	height: 20px;
+	left: 10px;
+	bottom: 10px;
+	position:absolute;
+}
